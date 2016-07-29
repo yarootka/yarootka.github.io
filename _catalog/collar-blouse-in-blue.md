@@ -2,6 +2,8 @@
 layout: item
 permalink: /catalog/collar-blouse-in-blue
 title: Collar Blouse in Blue
+pre: Titch — 
+
 
 price: RUB 5,000
 
