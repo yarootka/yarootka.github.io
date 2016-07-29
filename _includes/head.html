@@ -6,7 +6,7 @@
 	<meta content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" property="og:description">
 	<meta content="{% if page.image %}{{ site.url }}/i{{ page.url }}01_720w.jpg{% else %}{{ site.image }}{% endif %}" property="og:image">
 	<meta content="{% if page.url %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}" property="og:url">
-	<meta content="{% if page.pre %}{{ page.pre }} — {{ page.title }}{% else %}{{ site.title }}{% endif %}" property="og:title">
+	<meta content="{% if page.pre %}{{ page.pre }}{{ page.title }}{% else %}{{ site.title }}{% endif %}" property="og:title">
 
 	<title>{% if page.pre %}{{ page.pre }} — {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
