@@ -1,7 +1,4 @@
 ---
-layout: item
-permalink: /catalog/collar-blouse-in-lilac
-
 title: Collar Blouse in Lilac
 price: 1,000
 

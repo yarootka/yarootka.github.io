@@ -4,19 +4,27 @@ url: "http://titchwear.com"
 
 include: ['_pages']
 image: "/i/ogimage.jpg"
+markdown: kramdown
+
+
 
 email: "mailto:contact@titchwear.com"
 instagram: "https://instagram.com/titchwear"
 facebook: "https://facebook.com/titchwear"
 vkontakte: "https://vk.com/titchwear"
 
-username: titchwear
-copyright: © 2016 Titch—All Rights Reserved 😊
+username: "titchwear"
+copyright: "© 2016 Titch—All Rights Reserved 😊"
 
 collections:
   catalog:
     output: true
     permalink: /catalog/:path/
-    layout: item
-    
-markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+      type: catalog
+    values:
+      layout: item
+
