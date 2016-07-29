@@ -1,0 +1,171 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8"; 
+@font-face { font-family: 'demi'; src: url('/font/and.ttf') }
+@font-face { font-family: 'regular'; src: url('/font/anr.otf') }
+
+/* 🌍🌎🌏 */
+
+* { margin: 0 auto; padding: 0; text-decoration: none; font-size: 1em; font: bold 1em/120% 'demi', Helvetica, Arial, sans-serif; color: black; text-align: center; }
+
+header, main, footer { width: 90%; max-width: 1200px; min-width: 300px }
+
+	.logo { 
+		width: 200px; 
+		height: 150px; 
+		background: url(/i/titch.svg) center no-repeat; 
+		display: block
+		} 
+
+/* Navigation */
+
+	nav { font-size: 1.8em }
+	
+		nav a { margin: 0 0.2em; color: #adadad }
+		nav a:hover, .current { color: black; border-bottom: 1px solid black }
+
+/* Footer */
+
+footer { height: 300px }
+
+	footer p { margin: 20px auto; font-size: 30px; color: black; width: 100%; max-width: 650px; line-height: 130% }
+		footer p a { border-bottom: solid 1px #9e9e9e }; 
+		footer p a:hover { color: black; border-bottom: solid 1px black }
+	 		footer p a::after,  { position: relative; top: -1em; font-size: 40% }; 
+/*		 		footer p a::after { content: " ↗️️" }; */
+		 		footer p a.email::after { content: " ✉️" }; 
+		 		
+	footer p.copyright {font:80% 'regular', sans-serif;margin-bottom: 100px}
+
+
+/* Home */
+
+main { margin-top: 30px; padding: 10px; }
+
+	section.lookbook { 
+		width: 100%; 
+		column-count: 2; 
+		-moz-column-count: 2; 
+		column-gap: 10px; 		
+		-moz-column-gap: 10px; 
+		margin-bottom: 30px; 
+		 }
+
+		section.lookbook img { margin-bottom: 5px; width: 100%; height: auto; background: #ccc }
+
+/* 👗👗👗👗 Catalog Grid */
+/* 👗👗👗👗 Catalog Grid */
+/* 👗👗👗👗 Catalog Grid */
+/* 👗👗👗👗 Catalog Grid */
+		
+section.catalog { 
+  display: flex; 
+  flex-wrap: wrap; 
+ }
+
+	section.catalog a { 
+	  display: inline-block; 
+	  margin-bottom: 30px; 
+	  width: calc(50% - 4px); 
+	  margin-right: 8px; 
+	 }
+	section.catalog a:nth-of-type(2n) { 
+	  margin-right: 0; 
+	 }
+	 
+	section.catalog figcaption {
+	  font:100% 'regular', sans-serif;	
+	}
+		
+		
+/* 👗💁🏻 Item */
+
+		section.item-name { 
+			max-width: 720px; 
+			margin: auto; 
+			 }
+			span.price { 
+				font-family: 'regular', sans-serif
+				 }
+			a.x { 
+				float: right; 
+				position: relative; 
+				top: -8px; 
+				font-size: 27px; 
+				color: gray
+				}
+				a.x:hover { 
+					color: black
+					}
+		
+		#peppermint img {max-width: 800px;}
+
+		section.item-details { 
+			padding: 0; 
+			max-width: 720px
+			 }
+			section.item-details p { 
+				max-width: 620px; 
+				margin: 1em auto; 
+				font: normal 14px/140% 'regular', Helvetica, Arial, sans-serif }
+			section.item-details a {
+				font-size:150%; 
+				border-radius: .5em; 
+				margin: 1em auto 3em; 
+				text-align: center; 
+				padding: .5em 0 .4em; 
+				display: block; 
+				width: 90%; 
+				max-width: 20em;
+				background: red;
+				color:white;
+				}
+				section.item-details a:hover { 
+					color:black;
+					background: white; 
+					}
+				section.item-details a:active { 
+					color:white;
+					background: black;
+					}
+
+
+/* 📱 iPhone */
+
+
+@media only screen and ( max-width: 500px ) { 
+		
+.logo { background-size: 70%; height: 90px }
+nav { font-size: 16pt }
+main { margin-top: 10px }
+section.lookbook { column-count: 1; -moz-column-count: 1 }
+footer { padding-top: 10px; height: 200px }
+footer p { font-size: 20px }
+ }
+
+@media screen and (min-width: 550px) { 
+  section.catalog a { 
+    width: calc(25% - 6px); 
+   }
+  
+  section.catalog a:nth-of-type(2n) { 
+    margin-right: 8px; 
+   }
+  
+  section.catalog a:nth-of-type(4n) { 
+    margin-right: 0; 
+   }
+ }
+section.catalog figure { 
+  margin: 0; 
+  overflow: hidden; 
+ }
+section.catalog figcaption { 
+  margin-top: 8px; 
+ }
+section.catalog img { 
+  max-width: 100%; 
+  height: auto; 
+  background: #ccc; 
+ }

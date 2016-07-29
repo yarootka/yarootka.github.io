@@ -1,0 +1,7 @@
+<nav>
+	{% assign current = page.url | downcase | split: '/' %}
+	<a href='/' class="{% if page.url == '/' %}current{% endif %}">Home</a>
+	<a href='/catalog' {% if current[1] == 'catalog' %}class='current'{% endif %}>Catalog</a>
+<!--<a href='/stockists' {% if current[1] == 'stockists' %}class='current'{% endif %}>Stockists</a>-->
+	<a href='/contact' {% if current[1] == 'contact' %}class='current'{% endif %}>Contact</a>
+</nav>

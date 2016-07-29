@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	
+	<style>
+		article.document p, article.document a {margin-bottom:1em;font: 30px/140% 'regular', Helvetica, Arial, sans-serif}
+		article.document a {border-bottom: 1px solid black}
+	</style>
+	
+	<body>
+		{% include header.html %}
+		<main>
+			<article class="document" style="margin: 20px auto; font-size: 30px; color: black; width: 100%; max-width: 650px; line-height: 130%">
+				{{ content }}
+			</article>
+		</main>
+		{% include scripts.html %}
+	</body>
+</html>

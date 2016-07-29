@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<style>
+	nav a { color: #8d8d8d }
+	body, html { background: #e5e5e5 }
+</style>
+
+	<a href="/catalog/" class="x">✕</a>
+	<h1 style="width: 50%;min-width: 15em">
+		{{ page.title }}<br/>
+		<span class="price">
+<!--			{{ page.price }}.– -->
+		</span>
+	</h1>
+<div class="peppermint peppermint-inactive" id="peppermint">
+	<figure>
+		<img 
+			src="/i/{{ page.url }}/01_360w.jpg"
+			srcset="/i/{{ page.url }}/01_1872w.jpg 1872w,
+					/i/{{ page.url }}/01_720w.jpg 720w,
+					/i/{{ page.url }}/01_360w.jpg 360w"
+			sizes="(min-width: 500px) 50%, 100%"  
+			alt="{{ page.title }}">
+	</figure>
+
+	<figure>
+		<img 
+			src="/i/{{ page.url }}/02_360w.jpg"
+			srcset="/i/{{ page.url }}/02_1872w.jpg 1872w,
+					/i/{{ page.url }}/02_720w.jpg 720w,
+					/i/{{ page.url }}/02_360w.jpg 360w"
+			sizes="(min-width: 500px) 50%, 100%"  
+			alt="{{ page.title }}">
+	</figure>
+
+	<figure>
+		<img 
+			src="/i/{{ page.url }}/03_360w.jpg"
+			srcset="/i/{{ page.url }}/03_1872w.jpg 1872w,
+					/i/{{ page.url }}/03_720w.jpg 720w,
+					/i/{{ page.url }}/03_360w.jpg 360w"
+			sizes="(min-width: 500px) 50%, 100%"  
+			alt="{{ page.title }}">
+	</figure>
+
+	<figure>
+		<img 
+			src="/i/{{ page.url }}/04_360w.jpg"
+			srcset="/i/{{ page.url }}/04_1872w.jpg 1872w,
+					/i/{{ page.url }}/04_720w.jpg 720w,
+					/i/{{ page.url }}/04_360w.jpg 360w"
+			sizes="(min-width: 500px) 50%, 100%"  
+			alt="{{ page.title }}">
+	</figure>
+</div>
+<section class="item-details">
+	<p>
+		{{ page.description }}
+	</p>
+	<p>
+		{{ page.composition }}<br/>
+		{{ page.sizes }}
+	</p>
+	<a href="
+		mailto:{{ site.email }}
+		?subject={{ page.title }}
+		&body=Hi Titch!%0AI'd like to order {{ page.title }}.%0ASize:%0AQuantity:%0A%0A…">
+		Contact to Order
+	</a>
+</aside>

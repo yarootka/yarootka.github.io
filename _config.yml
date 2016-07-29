@@ -1,0 +1,22 @@
+title: Titch
+description: "Non-conceptual fashion brand. Based in Moscow, deliver worldwide."
+url: "http://titchwear.com"
+
+include: ['_pages']
+image: "/i/ogimage.jpg"
+
+email: "mailto:contact@titchwear.com"
+instagram: "https://instagram.com/titchwear"
+facebook: "https://facebook.com/titchwear"
+vkontakte: "https://vk.com/titchwear"
+
+username: titchwear
+copyright: © 2016 Titch—All Rights Reserved 😊
+
+collections:
+  catalog:
+    output: true
+    permalink: /catalog/:path/
+    layout: item
+    
+markdown: kramdown
