@@ -10,4 +10,4 @@ Please [contact us](mailto:{{ site.email }}) to order any items, or to ask any q
 <a href="{{ site.vkontakte }}">Vkontakte</a> and 
 <a href="{{ site.facebook }}">Facebook</a>.
 
-Cheers.
+Cheers
