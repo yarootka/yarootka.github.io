@@ -20,6 +20,8 @@ collections:
   catalog:
     output: true
     permalink: /catalog/:path/
+  stockists:
+    
 
 defaults:
   - scope:
@@ -27,4 +29,3 @@ defaults:
       type: catalog
     values:
       layout: item
-

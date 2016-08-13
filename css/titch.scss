@@ -15,15 +15,13 @@ header, main, footer { width: 90%; max-width: 1200px; min-width: 300px }
 		width: 200px; 
 		height: 150px; 
 		background: url(/i/titch.svg) center no-repeat; 
-		display: block
+		display: block;
 		} 
 
 /* Navigation */
 
-	nav { font-size: 1.8em }
-	
-		nav a { margin: 0 0.2em; color: #adadad }
-		nav a:hover, .current { color: black; border-bottom: 1px solid black }
+	nav a { margin: 0 0.2em; color: #adadad }
+	nav a:hover, .current { color: black; border-bottom: 1px solid black }
 
 /* Footer */
 
@@ -38,6 +36,10 @@ footer { height: 300px }
 		 		
 	footer p.copyright {font:80% 'regular', sans-serif;margin-bottom: 130px}
 
+
+/* General */
+
+h1 { font-size: 1.8em;}
 
 /* Home */
 
@@ -91,7 +93,7 @@ section.catalog {
 			a.x { 
 				float: right; 
 				position: relative; 
-				top: -3px; 
+				top: 1px; 
 				font-size: 27px; 
 				color: gray
 				}
@@ -130,6 +132,15 @@ section.catalog {
 					background: black;
 					}
 
+/* Stockists */
+
+.stockists, .stockists * {margin-bottom: 1em}
+.stockists .store-name {font: bold 14px/140% 'demi', Helvetica, Arial, sans-serif;}
+.stockists span {width:10em;font: normal 14px/140% 'regular', Helvetica, Arial, sans-serif;display: inline-block;vertical-align: top;text-align: left;margin-bottom: 2em;}
+.stockists a {font: normal 14px/140% 'regular', Helvetica, Arial, sans-serif;border-bottom: 1px solid gray}
+.stockists h1 {margin-top:1em;}
+.stockists h3 {margin:0;padding:0;font-size:100%;font-weight:bold;text-align:left;}
+
 
 /* 📱 iPhone */
 
@@ -137,7 +148,6 @@ section.catalog {
 @media only screen and ( max-width: 500px ) { 
 		
 .logo { background-size: 70%; height: 90px }
-nav { font-size: 16pt }
 main { margin-top: 10px }
 section.lookbook { column-count: 1; -moz-column-count: 1 }
 footer { padding-top: 0px; height: 300px }
@@ -145,6 +155,7 @@ footer p { font-size: 20px }
  }
 
 @media screen and (min-width: 550px) { 
+
   section.catalog a { 
     width: calc(25% - 6px); 
    }

@@ -1,0 +1,52 @@
+- city: Moscow
+  city-priority: 1
+  stores:
+
+    - name: 8 Store
+      store-priority: 2
+      email: mojombo
+      website: 8-store.ru
+      address: 20, Dvortsovaya emb.
+      phone: 8 (812) 966-72-45
+      opening-hours: "1:00pm–9:00pm"
+      location: https://www.google.ru/maps/place/Want/@59.915249,30.3411671,15z/data=!4m5!3m4!1s0x0:0xca9750acdb695789!8m2!3d59.915249!4d30.3411671
+
+    - name: Tsvetnoy
+      store-priority: 1
+      email: mojombo
+      website: 8-store.ru
+      address: 20, Dvortsovaya emb.
+      phone: 8 (812) 966-72-45
+      opening-hours: "1:00pm–9:00pm"
+      location: https://www.google.ru/maps/place/Want/@59.915249,30.3411671,15z/data=!4m5!3m4!1s0x0:0xca9750acdb695789!8m2!3d59.915249!4d30.3411671
+
+
+
+
+- city: Saint-Petersburg
+  city-priority: 2
+  stores:
+
+    - name: 8 Store
+      email: mojombo
+      store-priority: 1
+      website: 8-store.ru
+      address: 20, Dvortsovaya emb.
+      phone: 8 (812) 966-72-45
+      opening-hours: "1:00pm–9:00pm"
+      location: https://www.google.ru/maps/place/Want/@59.915249,30.3411671,15z/data=!4m5!3m4!1s0x0:0xca9750acdb695789!8m2!3d59.915249!4d30.3411671
+      
+      
+
+- city: Perm
+  city-priority: 3
+  stores:
+
+    - name: 8 Store
+      email: mojombo
+      store-priority: 1
+      website: 8-store.ru
+      address: 20, Dvortsovaya emb.
+      phone: 8 (812) 966-72-45
+      opening-hours: "1:00pm–9:00pm"
+      location: https://www.google.ru/maps/place/Want/@59.915249,30.3411671,15z/data=!4m5!3m4!1s0x0:0xca9750acdb695789!8m2!3d59.915249!4d30.3411671
