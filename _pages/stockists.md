@@ -5,9 +5,6 @@ permalink: /stockists/
 pre: Titch —
 title: Stockists
 ---
-<style>
-h3 {}
-</style>
 
  <section class="stockists">
 	{% assign stores = site.stockists | group_by: "city" | sort: "name" %}
