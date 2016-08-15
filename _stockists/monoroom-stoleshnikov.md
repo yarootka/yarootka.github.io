@@ -2,7 +2,7 @@
 city: Moscow
 display-order: 6
 name: 
-  Monoroom
+  Monoroom Stoleshnikov
   
 email: stoleshnikov@monoroom.ru
 website: instagram.com/monoroomru/

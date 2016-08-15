@@ -1,7 +1,7 @@
 ---
 city: Moscow
 display-order: 6
-name: Tag You
+name: Aviapark
 email: info@tagyou.ru 
 website: tagyou.ru
 phone: +7 (800) 250-09-64
@@ -12,6 +12,6 @@ opening-hours: |
 address: 
   4 Khodynskiy Boulevard<br/>
   Aviapark Mall<br/>
-  Trends Island
+  Trends Island, corner Tag You
 location: goo.gl/maps/yUt52ATBmZs
 ---
