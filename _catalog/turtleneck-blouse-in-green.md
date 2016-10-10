@@ -1,6 +1,6 @@
 ---
 title: Turtleneck Blouse in Green
-price: RUB 3,800
+price: RUB 3,230
 
 description: The base is made of fabric, and the yoke is made of jersey, so the two parts are contrast in texture while close in color. The neck has an invisible zipper on the back. 
 

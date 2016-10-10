@@ -1,6 +1,6 @@
 ---
 title: Stripe Blouse in Red
-price: RUB 3,900
+price: RUB 3,315
 
 description: Made of soft and natural nude cotton fabric, which feels really nice on your skin. Loose silhouette gives comfort and freedom of movement. The contrast piping imitates incompleteness and hangs relaxedly around your neck.
 

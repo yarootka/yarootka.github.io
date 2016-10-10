@@ -10,6 +10,6 @@ opening-hours: |
 address: 
   30A Lygovsky Ave<br/>
   Galereya 2nd floor <br/>
-  Chikipibaroom / Yunost
+  Chikipibaroom / Yunost, Opening
 location: goo.gl/maps/tKjNP7D5n8B2
 ---
