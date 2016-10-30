@@ -27,11 +27,11 @@ homepage: yes
 					/i/lookbook/titch_03_1000w.jpg 1000w"
 			sizes="(min-width: 500px) 50%, 100%">
 
-		<video autoplay loop>
+<!-- 		<video autoplay loop> omg
 			<source src="/i/lookbook/videos/feelnude.mov" type="video/mp4" />
 			<source src="movie.ogg" type="video/ogg" />
 			Your browser does not support the video tag.
-		</video>
+		</video> -->
 			
 		<img 
 			src="/i/lookbook/titch_04_500w.jpg"
