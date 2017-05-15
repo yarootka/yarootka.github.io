@@ -21,11 +21,6 @@ homepage: yes
 					/i/lookbook/titch_02_1000w.jpg 1000w"
 			sizes="(min-width: 500px) 50%, 100%">
 
-		<img 
-			src="/i/lookbook/titch_03_500w.jpg"
-			srcset="/i/lookbook/titch_03_500w.jpg 500w,
-					/i/lookbook/titch_03_1000w.jpg 1000w"
-			sizes="(min-width: 500px) 50%, 100%">
 
 <!-- 		<video autoplay loop> omg
 			<source src="/i/lookbook/videos/feelnude.mov" type="video/mp4" />
@@ -39,25 +34,13 @@ homepage: yes
 					/i/lookbook/titch_04_1000w.jpg 1000w"
 			sizes="(min-width: 500px) 50%, 100%">
 
-		<img 
-			src="/i/lookbook/titch_05_500w.jpg"
-			srcset="/i/lookbook/titch_05_500w.jpg 500w,
-					/i/lookbook/titch_05_1000w.jpg 1000w"
-			sizes="(min-width: 500px) 50%, 100%">
-
-		<img 
+				<img 
 			src="/i/lookbook/titch_06_500w.jpg"
 			srcset="/i/lookbook/titch_06_500w.jpg 500w,
 					/i/lookbook/titch_06_1000w.jpg 1000w"
 			sizes="(min-width: 500px) 50%, 100%">
 
-		<img 
-			src="/i/lookbook/titch_07_500w.jpg"
-			srcset="/i/lookbook/titch_07_500w.jpg 500w,
-					/i/lookbook/titch_07_1000w.jpg 1000w"
-			sizes="(min-width: 500px) 50%, 100%">
-
-		<img 
+				<img 
 			src="/i/lookbook/titch_08_500w.jpg"
 			srcset="/i/lookbook/titch_08_500w.jpg 500w,
 					/i/lookbook/titch_08_1000w.jpg 1000w"
@@ -69,11 +52,6 @@ homepage: yes
 					/i/lookbook/titch_09_1000w.jpg 1000w"
 			sizes="(min-width: 500px) 50%, 100%">
 
-		<img 
-			src="/i/lookbook/titch_10_500w.jpg"
-			srcset="/i/lookbook/titch_10_500w.jpg 500w,
-					/i/lookbook/titch_10_1000w.jpg 1000w"
-			sizes="(min-width: 500px) 50%, 100%">
 
 		<img 
 			src="/i/lookbook/titch_11_500w.jpg"
@@ -81,29 +59,11 @@ homepage: yes
 					/i/lookbook/titch_11_1000w.jpg 1000w"
 			sizes="(min-width: 500px) 50%, 100%">
 
-		<img 
-			src="/i/lookbook/titch_12_500w.jpg"
-			srcset="/i/lookbook/titch_12_500w.jpg 500w,
-					/i/lookbook/titch_12_1000w.jpg 1000w"
-			sizes="(min-width: 500px) 50%, 100%">
-
 		
 		<img 
 			src="/i/lookbook/titch_13_500w.jpg"
 			srcset="/i/lookbook/titch_13_500w.jpg 500w,
 					/i/lookbook/titch_13_1000w.jpg 1000w"
-			sizes="(min-width: 500px) 50%, 100%">
-
-		<img 
-			src="/i/lookbook/titch_14_500w.jpg"
-			srcset="/i/lookbook/titch_14_500w.jpg 500w,
-					/i/lookbook/titch_14_1000w.jpg 1000w"
-			sizes="(min-width: 500px) 50%, 100%">
-
-		<img 
-			src="/i/lookbook/titch_15_500w.jpg"
-			srcset="/i/lookbook/titch_15_500w.jpg 500w,
-					/i/lookbook/titch_15_1000w.jpg 1000w"
 			sizes="(min-width: 500px) 50%, 100%">
 
 </section>
