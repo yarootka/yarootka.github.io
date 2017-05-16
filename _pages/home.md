@@ -15,12 +15,6 @@ homepage: yes
 
 		<!-- <img src="/i/lookbook/feelnude.png"> -->
 
-		<img 
-			src="/i/lookbook/titch_02_500w.jpg"
-			srcset="/i/lookbook/titch_02_500w.jpg 500w,
-					/i/lookbook/titch_02_1000w.jpg 1000w"
-			sizes="(min-width: 500px) 50%, 100%">
-
 
 <!-- 		<video autoplay loop> omg
 			<source src="/i/lookbook/videos/feelnude.mov" type="video/mp4" />
@@ -50,13 +44,6 @@ homepage: yes
 			src="/i/lookbook/titch_09_500w.jpg"
 			srcset="/i/lookbook/titch_09_500w.jpg 500w,
 					/i/lookbook/titch_09_1000w.jpg 1000w"
-			sizes="(min-width: 500px) 50%, 100%">
-
-
-		<img 
-			src="/i/lookbook/titch_11_500w.jpg"
-			srcset="/i/lookbook/titch_11_500w.jpg 500w,
-					/i/lookbook/titch_11_1000w.jpg 1000w"
 			sizes="(min-width: 500px) 50%, 100%">
 
 		
